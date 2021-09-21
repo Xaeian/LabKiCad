@@ -1,7 +1,3 @@
----
-Emilian Świtalski | es@sqrt.pl
----
-
 _Repozytorium stanowi element warsztatów z projektowania urządzeń elektronicznych i celowo jest pozbawiony postępów realizacji prac._
 
 ## KiCad _"od koncepcji do gotowego urządzenia"_
