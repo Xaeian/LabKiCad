@@ -60,7 +60,7 @@ Załóżmy, że otrzymaliśmy zlecenie na zaprojektowanie urządzenie, które ma
 
 Prostym sposobem na różnego rodzaju regulację jest wykorzystanie potencjometru oraz przetwornika `ADC`. Miganie diodą można zrealizować poprzez zmianę stanu na pinie i odczekanie pewnego odcinka czasu `_delay_ms(x)`, jednak bardziej elegancko wykorzystać `PWM`. Jak co nieco pracowaliśmy z procesorami **AVR** lub **Arduino** to dobranie pinów z [tą ściągawką](https://github.com/Xaeian/labs-avr#speed-run-avr) nie powinno stanowić problemu. W przeciwnym wypadku podłączymy diodę i potencjometr do dowolnego pinu.
 
-Jak ktoś nie do końca wie jak podłączyć **mikrokontroler**, **potencjometr**, czy sterować diodą LED to poniższy rysunek powinien wyjaśnić sprawę.
+Jak ktoś nie do końca wie jak podłączyć **mikrokontroler**, **potencjometr**, czy sterować **diodą LED** to poniższy rysunek powinien wyjaśnić sprawę.
 
 ![Schema](/image/schema.png)
 
