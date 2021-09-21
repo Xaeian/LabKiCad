@@ -1,6 +1,5 @@
 ---
 Emilian Świtalski | es@sqrt.pl
-
 Repozytorium stanowi element warsztatów z projektowania urządzeń elektronicznych i celowo jest pozbawiony postępów realizacji prac.
 ---
 
