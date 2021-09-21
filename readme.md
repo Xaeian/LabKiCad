@@ -50,6 +50,16 @@ Oba pliki muszą znajdować się w lokalizacji:
     C:\Users\{USER}\AppData\Roaming\kicad
 
 
+Gdy mamy już pobranie i skonfigurowane biblioteki możemy przejść do 
+
+
+
+
+
+## KiCad - od koncepcji do gotowego urządzenia
+
+
+
 ### Dystrybutorzy-Sklepy
   - TME tme.pl
   - 
