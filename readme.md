@@ -64,7 +64,7 @@ Jak ktoś nie do końca wie jak podłączyć **mikrokontroler**, **potencjometr*
 
 ![Schema](/image/schema.png)
 
-W praktycznej implementacji można jeszcze dodać stabilizator **LDO** oraz złącze zasilania, np. **Power Jack**.
+W praktycznej implementacji można jeszcze dodać stabilizator **LDO** oraz złącze zasilania, np. **Power Jack** lub zwykłych zacisków śrubowych.
 
 ## Rysowanie schematu
 

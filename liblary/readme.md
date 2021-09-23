@@ -9,10 +9,11 @@ Zawartość Bibliotek:
   - Folder należy powiązać z zmienną systemową `LFP` w programie KiCad
 - `Models\` - Biblioteki zawierające modele 3D
   - Pliki w formacie `.step`, niekiedy projekty **FreeCAD** w formacie `.FCStd`
-  - Folder należy powiązać z zmienną systemową `3D` w programie KiCad
+  - Folder należy powiązać z zmienną systemową `L3D` w programie KiCad
 - `frame.kicad_wks` - pusta ramka dla programów **eeschema** oraz **pcbnew**
 - `sym-lib-table` - tabela dla bibliotek symboli
 - `fp-lib-table` - tabela dla bibliotek footprint'ów
 
 Tabele należy umieścić w lokalizacji:
+
     C:\Users\{USER}\AppData\Roaming\kicad
