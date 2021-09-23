@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA328P
+F http://sqrt.pl/datasheet/ATmega328P.pdf
+$ENDCMP
+#
+$CMP ATMEGA328P-SMD
+F http://sqrt.pl/datasheet/ATmega328P.pdf
+$ENDCMP
+#
+#End Doc Library

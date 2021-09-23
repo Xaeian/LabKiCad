@@ -1,0 +1,88 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Crystal
+#
+DEF Crystal XTAL 0 0 N N 1 F N
+F0 "XTAL" 0 105 30 H V C CNN
+F1 "Crystal" 0 -110 30 H V C CIN
+F2 "" -30 0 60 H I C CNN
+F3 "" 0 -150 30 H I C CNN
+F4 "-" 0 -200 30 H I C CNN "Manufacturer"
+F5 "-" 0 -250 30 H I C CNN "Code"
+F6 "-" 0 -300 30 H I C CNN "Supplier"
+F7 "-" 0 -350 30 H I C CNN "Description"
+DRAW
+S 35 -55 -35 55 0 1 0 N
+P 2 0 1 12 -55 70 -55 -70 N
+P 2 0 1 12 55 70 55 -70 N
+X 1 1 -100 0 45 R 35 35 1 1 P
+X 2 2 100 0 45 L 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Crystal-GND
+#
+DEF Crystal-GND XTAL 0 0 N N 1 F N
+F0 "XTAL" 0 160 30 H V C CNN
+F1 "Crystal-GND" 0 110 30 H V C CIN
+F2 "" -30 0 60 H I C CNN
+F3 "" 0 -350 30 H I C CNN
+F4 "-" 0 -400 30 H I C CNN "Manufacturer"
+F5 "-" 0 -450 30 H I C CNN "Code"
+F6 "-" 0 -500 30 H I C CNN "Supplier"
+F7 "-" 0 -550 30 H I C CNN "Description"
+DRAW
+S 35 -55 -35 55 0 1 0 N
+P 2 0 1 12 -55 70 -55 -70 N
+P 2 0 1 0 -15 -70 -25 -70 N
+P 2 0 1 0 -5 -70 5 -70 N
+P 2 0 1 0 0 -80 0 -70 N
+P 2 0 1 0 25 -70 15 -70 N
+P 2 0 1 12 55 70 55 -70 N
+X 1 1 -100 0 45 R 35 35 1 1 P
+X 2 2 100 0 45 L 35 35 1 1 P
+X GND 3 0 -100 20 U 35 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse
+#
+DEF Fuse B 0 0 N N 1 F N
+F0 "B" 0 60 30 H V C CNN
+F1 "Fuse" 5 -65 30 H V C CIN
+F2 "" 0 -100 15 H I C CNN
+F3 "" 0 -100 30 H I C CNN
+F4 "-" 0 -150 30 H I C CNN "Manufacturer"
+F5 "-" 0 -200 30 H I C CNN "Code"
+F6 "-" 0 -250 30 H I C CNN "Supplier"
+F7 "-" 0 -300 30 H I C CNN "Description"
+DRAW
+S -70 30 70 -30 0 1 0 N
+P 2 0 1 3 -70 0 70 0 N
+X 1 1 -100 0 30 R 20 20 1 1 P
+X 2 2 100 0 30 L 20 20 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Thermistor
+#
+DEF Thermistor TH 0 0 N N 1 F N
+F0 "TH" 0 80 30 H V C CNN
+F1 "Thermistor" 0 -85 30 H V C CIN
+F2 "Resistor-SMD:0805" 0 -350 30 H I C CNN
+F3 "" 0 -100 30 H I C CNN
+F4 "-" 0 -150 30 H I C CNN "Manufacturer"
+F5 "-" 0 -200 30 H I C CNN "Code"
+F6 "-" 0 -250 30 H I C CNN "Supplier"
+F7 "-" 0 -300 30 H I C CNN "Description"
+DRAW
+S -70 30 70 -30 0 1 0 N
+P 2 0 1 5 -40 -50 -70 -50 N
+P 3 0 1 5 -40 -50 60 50 70 50 N
+X 1 1 -100 0 30 R 20 20 1 1 P
+X 2 2 100 0 30 L 20 20 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

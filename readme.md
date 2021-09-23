@@ -58,7 +58,7 @@ Rysowanie schematów nie wydaje się trudne, nie mniej wymaga nieco wprawy, a pr
 
 Załóżmy, że otrzymaliśmy zlecenie na projekt urządzenia, które ma migać diodą, z dostrajaną przez urzytkownika częstotliwością. Sposobów na realizację takiego projektu będzie przynajmniej kilka, ale my wykożystamy mikrokontroler, a dokładnie popularny układ `Atmega328P`.
 
-Prostym sposobem na różnego rodzaju regulację jest wykorzystanie potencjometru oraz przetwornika `ADC`. Miganie diodą można zrealizować poprzez zmianę stanu na pinie i odczekanie pewnego odcinka czasu `_delay_ms(x)`, jednak bardziej elegancko będzie wykorzystać `PWM`. Jak co nieco pracowaliśmy z procesorami **AVR** lub **Arduino** to dobranie pinów z [tą ściągawką](https://github.com/Xaeian/labs-avr#speed-run-avr) nie powinno stanowić problemu. W przeciwnym wypadku podłączymy diodę i potencjometr do dowolnego pinu procesora.
+Prostym sposobem na różnego rodzaju regulację jest wykorzystanie potencjometru oraz przetwornika `ADC`. Miganie diodą można zrealizować poprzez zmianę stanu na pinie i odczekanie pewnego odcinka czasu `_delay_ms(x)`, jednak bardziej elegancko będzie wykorzystać `PWM`. Jak co nieco pracowaliśmy z procesorami **AVR** lub **Arduino** to z [tą ściągawką](https://github.com/Xaeian/labs-avr#speed-run-avr) dobranie pinów nie powinno stanowić problemu. W przeciwnym wypadku podłączymy diodę i potencjometr do dowolnego pinu procesora.
 
 Jak ktoś nie do końca wie jak podłączyć **mikrokontroler**, **potencjometr**, czy sterować **diodą LED** to poniższy rysunek powinien wyjaśnić sprawę.
 
@@ -145,7 +145,9 @@ Teraz wystarczy:
 - wyznaczyć punkt początkowy płytki _(lewy-górny róg)_;
 - rozstawić odpowiednio elementy;
 - połączyć je zgodnie z sugestiami programu;
-- dodać strefy miedzi przyległą do GND _(**polygon**)_
+  - nie łączymy ścieżek GND;
+- dodajemy otwory montażowe i grafikę;
+- dodać strefy miedzi przyległą do GND _(**polygon**)_.
 
 ![pcbnew](/image/pcbnew.png)
 

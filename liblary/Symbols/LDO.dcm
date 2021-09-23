@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7354
+F http://sqrt.pl/datasheet/AP7354.pdf
+$ENDCMP
+#
+$CMP AP7381
+F http://sqrt.pl/datasheet/AP7381.pdf
+$ENDCMP
+#
+#End Doc Library
