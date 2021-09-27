@@ -13,7 +13,8 @@ Zawartość Bibliotek:
 - `frame.kicad_wks` - pusta ramka dla programów **eeschema** oraz **pcbnew**
 - `sym-lib-table` - tabela dla bibliotek symboli
 - `fp-lib-table` - tabela dla bibliotek footprint'ów
+- `cp-lib-table.sh` - skrypt podmieniający tabele bibliotek
 
-Tabele należy umieścić w lokalizacji:
+Tabele należy umieścić w poniższej lokalizacji lub użyć skryptu `.sh`
 
     C:\Users\{USER}\AppData\Roaming\kicad
