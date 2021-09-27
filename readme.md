@@ -52,7 +52,7 @@ Oba pliki muszą znajdować się w lokalizacji:
 
 Zatem przed uruchomieniem programu udajmy się pod podaną lokalizację i przekopiujmy pliki `sym-lib-table` oraz `fp-lib-table` z folderu `{URL}\liblary\`.
 
-Można też użyć przygotowanego skryptu `cp-lib-table.sh`.
+Można też użyć przygotowanego skryptu `cp-lib-table.sh`:
 
 ```bash
 NAME=$('whoami')
