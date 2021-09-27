@@ -25,12 +25,12 @@ _Koniec końców po 5 latach pracy z wywalimy wszystkie standardowe biblioteki i
 
 Dlatego razem z kursem dołączona jest okrojona wersja bibliotek, która jest wystarczająca, żeby zrealizować prosty projekt przygotowany w kursie:
 
-- `{URL}\liblary\Symbols\` - Biblioteki zawierające symbole
-  - Pliki w formacie `.lib`
-- `{URL}\liblary\Footprints\` - Biblioteki zawierające footprint'y _(komponenty)_
-  - Pliki w formacie `.kicad_mod`
-- `{URL}\liblary\Models\` - Biblioteki zawierające modele 3D 
-  - Pliki w formacie `.step` lub `.wrl`
+- `{URL}\liblary\Symbols\` - Biblioteki zawierające symbole;
+  - Pliki w formacie `.lib`;
+- `{URL}\liblary\Footprints\` - Biblioteki zawierające footprint'y _(komponenty)_;
+  - Pliki w formacie `.kicad_mod`;
+- `{URL}\liblary\Models\` - Biblioteki zawierające modele 3D ;
+  - Pliki w formacie `.step` lub `.wrl`.
 
 Oczywiście `{URL}` jest lokalizacją, gdzie zostało sklonowane repozytorium z kursem. Wygodnie jest każdą z tych ścieżek dodać w programie jako ścieżkę względną:
 
@@ -58,7 +58,7 @@ Rysowanie schematów nie wydaje się trudne, nie mniej wymaga nieco wprawy, a pr
 
 Załóżmy, że otrzymaliśmy zlecenie na projekt urządzenia, które ma migać diodą, z dostrajaną przez urzytkownika częstotliwością. Sposobów na realizację takiego projektu będzie przynajmniej kilka, ale my wykożystamy mikrokontroler, a dokładnie popularny układ `Atmega328P`.
 
-Prostym sposobem na różnego rodzaju regulację jest wykorzystanie potencjometru oraz przetwornika `ADC`. Miganie diodą można zrealizować poprzez zmianę stanu na pinie i odczekanie pewnego odcinka czasu `_delay_ms(x)`, jednak bardziej elegancko będzie wykorzystać `PWM`. Jak co nieco pracowaliśmy z procesorami **AVR** lub **Arduino** to z [tą ściągawką](https://github.com/Xaeian/labs-avr#speed-run-avr) dobranie pinów nie powinno stanowić problemu. W przeciwnym wypadku podłączymy diodę i potencjometr do dowolnego pinu procesora.
+Prostym sposobem na różnego rodzaju regulację jest wykorzystanie potencjometru oraz przetwornika `ADC`. Miganie diodą można zrealizować poprzez zmianę stanu na pinie i odczekanie pewnego odcinka czasu `_delay_ms(x)`, jednak bardziej elegancko będzie wykorzystać `PWM`. Jak co nieco pracowaliśmy z procesorami **AVR** lub **Arduino** to z [tą ściągawką](https://github.com/Xaeian/labs-avr#speedrun-avr) dobranie pinów nie powinno stanowić problemu. W przeciwnym wypadku podłączymy diodę i potencjometr do dowolnego pinu procesora.
 
 Jak ktoś nie do końca wie jak podłączyć **mikrokontroler**, **potencjometr**, czy sterować **diodą LED** to poniższy rysunek powinien wyjaśnić sprawę.
 
