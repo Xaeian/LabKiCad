@@ -52,6 +52,17 @@ Oba pliki muszą znajdować się w lokalizacji:
 
 Zatem przed uruchomieniem programu udajmy się pod podaną lokalizację i przekopiujmy pliki `sym-lib-table` oraz `fp-lib-table` z folderu `{URL}\liblary\`.
 
+Można też użyć przygotowanego skryptu `cp-lib-table.sh`.
+
+```bash
+NAME=$('whoami')
+URL="C:/Users/$NAME/AppData/Roaming/kicad/"
+FP=$URL"fp-lib-table"
+SYM=$URL"sym-lib-table"
+cp fp-lib-table $FP
+cp sym-lib-table $SYM
+```
+
 ## Koncepcja
 
 Rysowanie schematów nie wydaje się trudne, nie mniej wymaga nieco wprawy, a przede wszystkim pomysłu. Musimy wiedzieć, co rysujemy lub projektujemy.
