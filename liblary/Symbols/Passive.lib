@@ -70,7 +70,7 @@ ENDDEF
 DEF Thermistor TH 0 0 N N 1 F N
 F0 "TH" 0 80 30 H V C CNN
 F1 "Thermistor" 0 -85 30 H V C CIN
-F2 "Resistor-SMD:0805" 0 -350 30 H I C CNN
+F2 "" 0 -350 30 H I C CNN
 F3 "" 0 -100 30 H I C CNN
 F4 "-" 0 -150 30 H I C CNN "Manufacturer"
 F5 "-" 0 -200 30 H I C CNN "Code"

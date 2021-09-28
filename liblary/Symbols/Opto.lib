@@ -76,7 +76,7 @@ ENDDEF
 DEF LED LED 0 0 N Y 1 F N
 F0 "LED" 0 130 30 H V C CNN
 F1 "LED" 0 -90 30 H I C CNN
-F2 "LED:0603" 0 -350 30 H I C CNN
+F2 "" 0 -350 30 H I C CNN
 F3 "" 50 -400 30 H I C CNN
 F4 "-" 0 -150 30 H I C CNN "Manufacturer"
 F5 "-" 0 -200 30 H I C CNN "Code"
@@ -123,7 +123,7 @@ ENDDEF
 DEF Optocoupler IC 0 0 N Y 1 F N
 F0 "IC" 0 180 40 H V C CNN
 F1 "Optocoupler" 0 250 40 H V C CNB
-F2 "SOIC:SOIC4" 0 -400 30 H I C CNN
+F2 "" 0 -400 30 H I C CNN
 F3 "" 0 -150 30 H I C CNN
 F4 "-" 0 -200 30 H I C CNN "Manufacturer"
 F5 "-" 0 -250 30 H I C CNN "Code"

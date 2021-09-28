@@ -37,7 +37,7 @@ Oczywiście `{URL}` jest lokalizacją, gdzie zostało sklonowane repozytorium z 
 ![Path](/image/path.png)
 
 - `LSB` - Ścieżka dostępu do bibliotek z symbolami
-- `LFB` - Ścieżka dostępu do bibliotek komponentami
+- `LFP` - Ścieżka dostępu do bibliotek komponentami
 - `L3D` - Ścieżka dostępu do bibliotek z modelami 3D
 
 Wówczas dodając bibliotekę, będziemy mogli odnosić się do utworzonych ścieżek. Biblioteki można dodawać z poziomu programu, jednak w dłuższej perspektywie praktyczniej jest edytować pliki za to odpowiedzialne.
